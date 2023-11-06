@@ -1,0 +1,266 @@
+/* Tags utilizadas na Segunda Página - O que é COVID-19 */   
+    
+    .image_and_text div
+    {
+        float: left;
+        width: 48%;
+        text-align: center;
+        padding: 0.6em;
+    }
+
+    .image_covid img
+    {
+        width: 28em;
+        height: 40em;
+        border-radius: 0px 30px 25px 20px;
+        margin-bottom: 2.5em;
+        margin-top: 2.5em;
+    }
+
+    .txt_corona p
+    {
+        font-family: 'Varela';
+        margin-top: 40%;
+        color:whitesmoke;
+        font-size: 1.2em;
+        text-align: left;
+    }
+
+    .back_protect
+    {
+        text-align:center;
+        overflow: hidden;
+        width: 100%;
+        background-color: #202020;
+    }
+
+    .sub_titulo
+    {
+        color:whitesmoke;
+        margin-top: 3em;
+        font-size: 3em;
+        font-family: 'Varela';
+    }
+
+    .desc_transmissao p
+    {
+        font-family: 'Varela';
+        color:gray;
+        font-size: 1.1em;
+        margin: 0 20% 5.5em 20%;
+    }
+
+    .container_como_se_proteger
+    {
+        text-align: center;
+        margin-bottom: 6em;
+    }
+
+    .icones_maos
+    {
+        transition: all .3s ;
+    }
+
+    .icones_maos:hover
+    {
+        transform: scale(1.1);
+    }
+
+    .back_mask
+    {
+        background-color: #202020;
+        width: 100% !important;
+        text-align: center;
+    }
+
+    .video
+    {
+        outline:none;
+        margin-bottom: 4em;
+        width: 70%;
+        height:70%;
+    }
+
+    .image_vac
+    {
+        border-radius: 15px;
+        border: 10px unset;
+        height: 90%;
+        width: 90%;
+    }
+
+    .text_vac
+    {
+        margin: 1.4em 0 3.5em 0;
+        font-size:1em;
+        font-family: 'Varela';
+        color:white;
+    }
+
+    .back_stayhome
+    {
+        background-color: #202020;
+        text-align: center;
+        width: 100% !important;
+    }
+
+    .background_page_end
+    {
+        background: #202020;
+        width: 100%;
+        overflow: hidden;
+    }
+
+/* Fim - Tags utilizadas na Segunda Página */  
+
+
+/* Inicio da Segunda Página Configurada para telas com o tamanho de 1137px até 801px */
+
+@media(max-width:1137px) and (min-width:801px)
+{
+    .image_and_text div
+    {
+        width: 47%;
+    }
+
+    .image_covid img
+    {
+        width: 22em;
+        height: 35em;
+    }
+
+    .txt_corona p
+    {
+        margin-top: 50%;
+        font-size: 1em;
+    }
+
+    /* .back_protect { Sem alterações nessa tag! } */
+
+    .sub_titulo
+    {
+        margin-top: 2em;
+        font-size:2.4em;
+    }
+
+    /* .desc_transmissao { Sem alterações nessa tag! } */
+
+    .container_como_se_proteger
+    {
+        margin-bottom: 3em;
+    }
+
+    .icones_maos
+    {
+        margin-bottom: 0.3em;
+    }
+
+    .maos
+    {
+        width: 75%;
+        margin: auto;
+    }
+
+    /* .back_mask { Sem alterações nessa tag! } */
+
+    /* .video { Sem alterações nessa tag! } */
+    
+    /* .image_vac { Sem alterações nessa tag! } */
+
+    /* .text_vac { Sem alterações nessa tag! } */
+
+    /* .back_stayhome { Sem alterações nessa tag! } */
+
+    /* .background_page_end { Sem alterações nessa tag! } */
+}
+
+/* Fim - Segunda Página Configurada para telas com o tamanho de 1137px até 801px */
+
+
+/* Inicio da Segunda Página Configurada para telas com o tamanho de 800px ou menor */
+
+@media(max-width:800px)
+{
+    .image_and_text div
+    {
+        float: none;
+        margin: 0 auto;
+    }
+
+    .image_covid
+    {
+        width: 20em !important;
+        height: 33em !important;
+    }
+
+    .image_covid img
+    {
+        width: 20em;
+        height: 33em;
+        margin-bottom: 1em;
+        margin-top: 1em;
+    }
+
+    .txt_corona
+    {
+        margin-top: 2em !important;
+        width: 80% !important;
+    }
+
+    .txt_corona p
+    {
+        margin-top: 0;
+        font-size: 1em;
+        text-align: center;
+    }
+
+    /* .back_protect { Sem alterações nessa tag! } */
+
+    .sub_titulo
+    {
+        margin-top: 2em;
+        font-size:1.9em;
+    }
+
+    .desc_transmissao p
+    {
+        font-size: 1em;
+    }
+
+    .container_como_se_proteger
+    {
+        margin-bottom: 3em;
+    }
+
+    .icones_maos
+    {
+        margin-bottom: 0.3em;
+        width: 90px;
+        height: 90px;
+    }
+
+    .maos
+    {
+        width: 100%;
+        margin: auto;
+    }
+
+    /* .back_mask { Sem alterações nessa tag! } */
+
+    .video
+    {
+        width: 90%;
+        height:90%;
+    }
+
+    /* .image_vac { Sem alterações nessa tag! } */
+
+    /* .text_vac { Sem alterações nessa tag! } */
+
+    /* .back_stayhome { Sem alterações nessa tag! } */
+
+    /* .background_page_end { Sem alterações nessa tag! } */
+
+}
+
+/* Fim - Segunda Página Configurada para telas com o tamanho de 800px ou menor */

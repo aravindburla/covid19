@@ -1,0 +1,414 @@
+/* Tags utilizadas na Página Inicial - Page 1 */
+
+    .z{
+        background-image: url("/Imagens/Road.jpg");
+        border-radius: 0px 0px 40px 40px;
+        margin-bottom: 6em;
+    }
+
+    .caixas div 
+    {
+        margin-top: 6em;
+        margin-bottom: 6em;
+    }
+
+    .caixaA,
+    .caixaB,
+    .caixaC
+    {
+        display: inline-block;
+        width: 20em;
+        background-color: whitesmoke;
+        border: solid gray;
+        border-radius: 20px;
+    }
+
+    .caixaA,
+    .caixaB
+    {
+        margin-right: 0.8em;
+    }
+
+    .caixaA p,
+    .caixaB p,
+    .caixaC p
+    {
+        font-size: 0.9em !important;
+        font-family: 'Varela';
+        margin-bottom: 0;
+        padding: 3em 2em;
+    }
+
+    .x2
+    {
+        background-color: grey;
+    }
+
+    .graph_border
+    {
+        margin-top: 7em;
+        margin-bottom: 7em;
+        border-radius: 20px;
+        border: 5px outset whitesmoke;
+    }
+
+    .graph_border span
+    {
+        margin-bottom: 0.6em;
+    }
+
+    .title_graph
+    {
+        font-family: 'Varela';
+        margin-top: 3em;
+        font-size: 1.4em;
+        text-align: left;
+        padding-left: 7.3em;
+        padding-top: 1em;
+        color: black;
+    }
+
+    .frame
+    {
+        display: initial;
+        margin: 0 auto;
+		width:48em;
+		height:31em;
+    }
+
+    .text_source a
+    {
+        font-family: 'Varela';
+        margin-bottom: 0.6em;
+        color: white;
+    }
+
+    .texto_1
+    {
+        font-family: 'Varela';
+        color: white;
+        font-size: 0.6em;
+        margin-bottom: 3em;
+    }
+
+    .d
+    {
+        background-image: url("/Imagens/Floresta.jpg");
+        background-position: center;
+        border-radius: 0px 0px 40px 40px;
+        margin-top: 6em;
+        margin-bottom: 6em;
+    }
+
+    .x3 img
+    {   
+        width: 65% !important;
+        padding: 0 9em;
+        margin-bottom: 6em;     
+        background-color: white;
+        border: 5px inset white;
+        border-radius: 20px;
+    }
+
+/* Fim - Tags da Primeira Página */
+
+
+/* Inicio da Primeira Página Configurada para telas com o tamanho de 1300px até 1138px */
+
+@media(max-width:1300px) and (min-width:1138px)
+{
+
+    .z{
+        margin-bottom: 3em;
+    }
+
+    .caixas div 
+    {
+        margin-top: 3em;
+        margin-bottom: 3em;
+    }
+
+    .caixaA,
+    .caixaB,
+    .caixaC
+    {
+        width: 17em;
+    }
+
+    .caixaA p,
+    .caixaB p,
+    .caixaC p
+    {
+        font-size: 0.8em !important;
+        padding: 3em 1em;
+    }
+
+    /* .x2{ Sem alterações nessa tag! }*/
+
+    /* .graph_border { Sem alterações nessa tag! } */
+
+    /* .title_graph { Sem alterações nessa tag! } */
+
+    /* .frame { Sem alterações nessa tag! } */
+
+    .text_source a
+    {
+        margin-bottom: 0.6em;
+    }
+
+    /* .texto_1 { Sem alterações nessa tag! } */
+
+    .d
+    {
+        margin-top: 3em;
+        margin-bottom: 3em;
+    }
+
+    .x3 img
+    {   
+        padding: 0 10em;
+        margin-bottom: 3em;
+    }
+
+}
+
+/* Fim - Primeira Página Configurada para telas com o tamanho de 1300px até 1138px */
+
+
+/* Inicio da Primeira Página Configurada para telas com o tamanho de 1137px até 941px */
+
+@media(max-width:1137px) and (min-width:941px)
+{
+
+    .z{
+        margin-bottom: 2em;
+    }
+
+    .caixas div 
+    {
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+
+    .caixaA,
+    .caixaB,
+    .caixaC
+    {
+        width: 11.5em;
+        margin: 0.3em;
+    }
+
+    .caixaA p,
+    .caixaB p
+    {
+        line-height: normal;
+        font-size: 0.65em !important;
+        text-align: center;
+        padding: 2.5em 2em !important;
+    }
+
+    .caixaC p   
+    {
+        line-height: normal;
+        font-size: 0.65em !important;
+        padding:2.5em 0.6em !important;
+    }
+
+    /* .x2{ Sem alterações nessa tag! }*/
+
+    /* .graph_border { Sem alterações nessa tag! } */
+
+    .title_graph
+    {
+        margin-top: 2em;
+        font-size: 1.2em;
+        padding-left: 1.6em;
+        padding-top: 1em;
+    }
+
+    .frame
+    {
+		width:40em;
+		height:20em
+    }
+
+    /* .text_source { Sem alterações nessa tag! } */
+
+    /* .texto_1 { Sem alterações nessa tag! } */
+
+    .d
+    {
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+
+    .x3 img
+    {   
+        padding: 0 7em;
+        margin-bottom: 2em;     
+    }
+    
+}
+
+/* Fim - Primeira Página Configurada para telas com o tamanho de 1137px até 941px */
+
+
+/* Inicio da Primeira Página Configurada para telas com o tamanho de 940px até 561px */
+
+@media(max-width:940px) and (min-width:561px)
+{
+
+    .z{
+        margin-bottom: 2em;
+    }
+
+    .caixas div 
+    {
+        margin-top: 1.5em;
+        margin-bottom: 1.5em;
+        width: 85%;
+    }
+
+    .caixaA,
+    .caixaB
+    {
+        margin-right: 0em;
+    }
+
+    .caixaA p,
+    .caixaB p,
+    .caixaC p
+    {
+        line-height: normal;
+        font-size: 0.7em !important;
+        text-align: center;
+        padding: 2em 1.6em !important;
+    }
+
+    /* .x2 { Sem alterações nessa tag! } */
+
+    .graph_border
+    {
+        margin: 7em 0;
+        width: 80% !important;
+    }
+
+    .title_graph
+    {
+        margin-top: 2em;
+        font-size: 1em;
+        padding: 0;
+        margin-left: 3em;
+    }
+
+    .frame
+    {
+		width:30em;
+		height:25em;
+    }
+
+    /* .text_source { Sem alterações nessa tag! } */
+
+    /* .texto_1 { Sem alterações nessa tag! } */
+
+    .d
+    {
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+
+    .x3
+    {
+        width: 95% !important;
+    }
+
+    .x3 img
+    {   
+        padding: 0 2em;
+        margin-bottom: 2em;
+        width: 80% !important;
+        height: 16em !important;
+    }
+}
+
+/* Fim - Primeira Página Configurada para telas com o tamanho de 940px até 561px */
+
+
+/* Inicio da Primeira Página Configurada para telas com o tamanho de 560px ou menor */
+
+@media(max-width:560px)
+{
+
+    .z{
+        margin-bottom: 2em;
+    }
+
+    .caixas div 
+    {
+        margin-top: 1.5em;
+        margin-bottom: 1.5em;
+        width: 85%;
+    }
+
+    .caixaA,
+    .caixaB
+    {
+        margin-right: 0;
+    }
+
+    .caixaA p,
+    .caixaB p,
+    .caixaC p
+    {
+        line-height: normal;
+        font-size: 0.65em !important;
+        text-align: center;
+        padding: 2em 1.6em !important;
+    }
+
+    /* .x2 { Sem alterações nessa tag! } */
+
+    .graph_border
+    {
+        margin: 7em 0;
+        width: 95% !important;
+    }
+
+    .title_graph
+    {
+        margin-top: 2em;
+        font-size: 1em;
+        padding-left: 1em;
+    }
+
+    .frame
+    {
+		width:28em;
+		height:25em;
+    }
+
+    /* .text_source { Sem alterações nessa tag! } */
+
+    /* .texto_1 { Sem alterações nessa tag! } */
+
+    .d
+    {
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+
+    .x3
+    {
+        width: 95% !important;
+    }
+
+    .x3 img
+    {   
+        padding: 0 2em;
+        margin-bottom: 2em;
+        width: 80% !important;
+        height: 16em !important;
+    }
+}
+
+/* Fim - Primeira Página Configurada para telas com o tamanho de 560px ou menor */

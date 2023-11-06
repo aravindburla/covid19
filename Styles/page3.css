@@ -1,0 +1,322 @@
+/* Tags utilizadas na Terceira Página - Covid-19 e o Meio-Ambiente */
+
+	.co2_emission
+	{
+		text-align:center;
+		width: 90% !important;
+	}
+
+	.div_co2_emission div
+	{
+		float: left;
+		width: 48%;
+		text-align: center;
+		padding: 0.6em;
+	}
+
+	.txt_co2_1
+	{
+		margin-top:1.4em;
+		font-size:1em;
+		font-family:'Varela';
+		color:whitesmoke;
+		text-align: justify;
+	}
+
+	.txt_co2_2
+	{
+		font-size:1em;
+		font-family:'Varela';
+		color:whitesmoke;
+		text-align: justify;
+	}
+
+	.image_co2_sector
+	{
+		border-radius: 5px;
+		border-style: unset;
+		width:37.5em;	
+		height: 21em;
+	}
+
+	.txt_font_daily
+	{
+		color: white;
+		font-size: 1em;
+		font-family:'Varela';
+	}
+
+	.txt_font_daily a
+	{
+		text-decoration: none;
+		color: white;
+	}
+
+	.delivery_co2
+	{
+		margin:6em auto !important;
+		width: 90% !important;
+		border-radius: 7px;
+		background-color: gray;
+		border: unset;
+	}
+
+	.div_delivery_co2 div
+	{
+		float: left;
+		width: 48%;
+		text-align: center;
+		padding: 0.6em;
+	}
+
+	.pad_left p
+	{
+		margin-left: 3em;
+		padding-left: 0.6em;
+		font-family:'Varela';
+		color:whitesmoke;
+		text-align: justify;
+		font-size: 1em;
+	}
+
+	.pad_right p
+	{
+		margin-right: 3em;
+		padding-right: 0.6em;
+		font-family:'Varela';
+		color:whitesmoke;
+		text-align: justify;
+		font-size: 1em;
+	}
+
+	.crisis_co2
+	{
+		margin:6em auto !important;
+		width: 90% !important;
+		border-radius: 7px;
+		background-color: #202020;
+	}
+
+	.div_crisis div
+	{
+		float: left;
+		width: 48%;
+		text-align: center;
+		padding: 0.6em;
+	}
+
+	.list_crisis
+	{
+		margin-left:7%;
+		margin-right: 3em;
+		color:white;
+		list-style-type: square;
+		text-align:left;
+		font-size: 1em;
+		font-family: 'Varela';
+	}
+
+	.help_co2
+	{
+		border-radius:7px;
+		border:unset;
+		width: 90% !important;
+		margin:6em auto !important;
+		background-color: black;
+	}
+
+	.div_help_crisis div
+	{
+		float: left;
+		width: 48%;
+		text-align: center;
+		padding: 0.6em;
+	}
+
+/* Fim - Tags utilizadas na Terceira Página */
+
+
+/* Inicio da Terceira Página Configurada para telas com o tamanho de 1137px até 801px */
+
+@media(max-width:1137px) and (min-width:801px)
+{
+	
+	.co2_emission
+	{
+		margin: 0 auto !important;
+	}
+
+	.div_co2_emission div
+	{
+		float: none;
+		width: 80%;
+		margin: auto;
+	}
+
+	.txt_co2_1
+	{
+		font-size:0.9em;
+	}
+
+	.txt_co2_2
+	{
+		font-size:0.9em;
+	}
+
+	.image_co2_sector
+	{
+		width:35.5em;
+	}
+
+	.txt_font_daily
+	{
+		font-size: 0.9em;
+	}
+
+	.delivery_co2
+	{
+		margin:3em auto !important;
+	}
+
+	.div_delivery_co2 div
+	{
+		width: 46%;
+	}
+
+	.pad_left
+	{
+		margin-left: 0.5em;
+		padding-left: 0.6em;
+	}
+
+	.pad_left p
+	{
+		font-size: 0.9em;
+	}
+
+	.pad_right
+	{
+		margin-right: 0.5em;
+		padding-right: 0.6em;
+	}
+
+	.pad_right p
+	{
+		font-size: 0.9em;
+	}
+
+	.crisis_co2
+	{
+		margin:3em auto !important;
+	}
+
+	.div_crisis div
+	{
+		width: 46%;
+	}
+
+	/* .list_crisis { Sem alterações nessa tag! } */
+
+	.help_co2
+	{
+		margin:3em auto !important;
+	}
+
+	.div_help_crisis div
+	{
+		width: 46%;
+	}
+
+}
+
+/* Fim - Terceira Página Configurada para telas com o tamanho de 1137px até 801px */
+
+
+/* Inicio da Terceira Página Configurada para telas com o tamanho de 800px ou menor */
+
+@media(max-width:800px)
+{
+
+    .co2_emission
+	{
+		margin: 0 auto !important;
+	}
+
+	.div_co2_emission div
+	{
+		float: none;
+		width: 98%;
+		margin: auto;
+	}
+
+	.txt_co2_1
+	{
+		font-size:0.9em;
+	}
+
+	.txt_co2_2
+	{
+		font-size:0.9em;
+	}
+
+	.image_co2_sector
+	{
+		width:22.8em;	
+		height: 18em;
+	}
+
+	.txt_font_daily
+	{
+		font-size: 0.9em;
+	}
+
+	.delivery_co2
+	{
+		margin:6em auto !important;
+		width: 90% !important;
+	}
+
+	.div_delivery_co2 div
+	{
+		float: none;
+		width: 90%;
+		margin: auto !important;
+	}
+
+	.pad_left p
+	{
+		margin: 0 auto !important;
+		padding: 0;
+		font-size: 0.9em;
+	}
+
+	.pad_right p
+	{
+		margin: 0 auto !important;
+		padding: 0;
+		font-size: 0.9em;
+	}
+
+	/* .crisis_co2 { Sem alterações nessa tag! } */
+
+	.div_crisis div
+	{
+		float: none;
+		width: 90%;
+		margin: auto !important;
+	}
+
+	/* .list_crisis { Sem alterações nessa tag! } */
+
+	/* .help_co2 { Sem alterações nessa tag! } */
+
+	.div_help_crisis div
+	{
+		float: none;
+		width: 90%;
+		margin: auto !important;
+	}
+
+}
+
+/* Fim - Terceira Página Configurada para telas com o tamanho de 800px ou menor */
